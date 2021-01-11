@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+
+</head>
+<body>
+    <div id="a8383e8436f845e68fde862ba05ba47e" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_a8383e8436f845e68fde862ba05ba47e = echarts.init(
+            document.getElementById('a8383e8436f845e68fde862ba05ba47e'), 'white', {renderer: 'canvas'});
+        var option_a8383e8436f845e68fde862ba05ba47e = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "mapType": "china",
+                "data": [
+                    {
+                        "name": "\u5929\u6d25",
+                        "value": 70.1
+                    },
+                    {
+                        "name": "\u5185\u8499\u53e4",
+                        "value": 35.19
+                    },
+                    {
+                        "name": "\u4e91\u5357",
+                        "value": 27.04
+                    },
+                    {
+                        "name": "\u56db\u5ddd",
+                        "value": 46.99
+                    },
+                    {
+                        "name": "\u5c71\u4e1c",
+                        "value": 65.77
+                    },
+                    {
+                        "name": "\u798f\u5efa",
+                        "value": 33.48
+                    },
+                    {
+                        "name": "\u6cb3\u5357",
+                        "value": 72.36
+                    },
+                    {
+                        "name": "\u5317\u4eac",
+                        "value": 55.58
+                    },
+                    {
+                        "name": "\u4e0a\u6d77",
+                        "value": 51.67
+                    },
+                    {
+                        "name": "\u6d77\u5357",
+                        "value": 23.27
+                    },
+                    {
+                        "name": "\u65b0\u7586",
+                        "value": 44.16
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": true,
+                "emphasis": {}
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": false,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "bottom": "-5px",
+            "data": [
+                "2018-08",
+                "2019-01",
+                "2019-02",
+                "2019-06"
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "continuous",
+            "min": 0,
+            "max": 100,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "orient": "vertical",
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 140,
+            "borderWidth": 0
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 52.18
+                        },
+                        {
+                            "name": "\u6d77\u5357",
+                            "value": 26.5
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 64.45
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 41.66
+                        },
+                        {
+                            "name": "\u5185\u8499\u53e4",
+                            "value": 50.22
+                        },
+                        {
+                            "name": "\u4e91\u5357",
+                            "value": 47.8
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 64.83
+                        },
+                        {
+                            "name": "\u65b0\u7586",
+                            "value": 68.0
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 64.24
+                        },
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 62.08
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 40.46
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "2018-08\u5168\u56fd\u7a7a\u6c14\u8d28\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 141.06
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 80.91
+                        },
+                        {
+                            "name": "\u6d77\u5357",
+                            "value": 42.07
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 97.75
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 51.17
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 99.71
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 154.7
+                        },
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 95.26
+                        },
+                        {
+                            "name": "\u4e91\u5357",
+                            "value": 41.19
+                        },
+                        {
+                            "name": "\u65b0\u7586",
+                            "value": 180.16
+                        },
+                        {
+                            "name": "\u5185\u8499\u53e4",
+                            "value": 82.28
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "2019-01\u5168\u56fd\u7a7a\u6c14\u8d28\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 68.41
+                        },
+                        {
+                            "name": "\u5185\u8499\u53e4",
+                            "value": 75.65
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 152.82
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 76.33
+                        },
+                        {
+                            "name": "\u6d77\u5357",
+                            "value": 26.77
+                        },
+                        {
+                            "name": "\u4e91\u5357",
+                            "value": 44.8
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 44.07
+                        },
+                        {
+                            "name": "\u65b0\u7586",
+                            "value": 124.31
+                        },
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 90.07
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 133.21
+                        },
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 91.91
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "2019-02\u5168\u56fd\u7a7a\u6c14\u8d28\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "map",
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "mapType": "china",
+                    "data": [
+                        {
+                            "name": "\u5929\u6d25",
+                            "value": 70.1
+                        },
+                        {
+                            "name": "\u5185\u8499\u53e4",
+                            "value": 35.19
+                        },
+                        {
+                            "name": "\u4e91\u5357",
+                            "value": 27.04
+                        },
+                        {
+                            "name": "\u56db\u5ddd",
+                            "value": 46.99
+                        },
+                        {
+                            "name": "\u5c71\u4e1c",
+                            "value": 65.77
+                        },
+                        {
+                            "name": "\u798f\u5efa",
+                            "value": 33.48
+                        },
+                        {
+                            "name": "\u6cb3\u5357",
+                            "value": 72.36
+                        },
+                        {
+                            "name": "\u5317\u4eac",
+                            "value": 55.58
+                        },
+                        {
+                            "name": "\u4e0a\u6d77",
+                            "value": 51.67
+                        },
+                        {
+                            "name": "\u6d77\u5357",
+                            "value": 23.27
+                        },
+                        {
+                            "name": "\u65b0\u7586",
+                            "value": 44.16
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "text": "2019-06\u5168\u56fd\u7a7a\u6c14\u8d28\u91cf\u60c5\u51b5",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 100,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "orient": "vertical",
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_a8383e8436f845e68fde862ba05ba47e.setOption(option_a8383e8436f845e68fde862ba05ba47e);
+    </script>
+</body>
+</html>
